@@ -14,10 +14,6 @@ type UnsignedJWTBody = {
   mobileNumber: string;
 };
 
-const generateRandomSecret = () => {
-  return createHash("sha256").update(Math.random().toString()).digest("hex");
-};
-
 const signJwt = (
   header: UnsignedJWTHeader,
   body: UnsignedJWTBody,
