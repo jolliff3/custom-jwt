@@ -1,0 +1,23 @@
+{
+  "name": "custom-jwt",
+  "version": "1.0.0",
+  "description": "To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolliff3/custom-jwt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolliff3/custom-jwt/issues"
+  },
+  "homepage": "https://github.com/jolliff3/custom-jwt#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.3"
+  }
+}
