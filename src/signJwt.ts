@@ -1,5 +1,5 @@
 import { createHash } from "crypto";
-import { UnsignedJWTHeader, UnsignedJWTBody } from "./index";
+import { UnsignedJWTHeader, UnsignedJWTBody } from "./models";
 
 export function signJwt(
   header: UnsignedJWTHeader,
